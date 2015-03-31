@@ -1,0 +1,8 @@
+- name: Home
+  link: index
+- name: Registration
+  link: registration
+- name: Program
+  link: program
+- name: Travel
+  link: travel

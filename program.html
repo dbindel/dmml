@@ -1,0 +1,41 @@
+---
+title: Program
+layout: page
+---
+
+<p>
+  A preliminary program is below.  All events take place on the UC
+  Berkeley campus.
+</p>
+
+<table class="pure-table pure-table-horizontal">
+  <tbody>
+    <tr>
+      <td>Fri, Oct 23</td>
+      <td>1 pm-5 pm</td>
+      <td>Technical talks (3010 Banatao Auditorium)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>5 pm-7 pm</td>
+      <td>Reception (1015 Evans Hall)</td>
+    </tr>
+    <tr>
+      <td>Sat, Oct 24</td>
+      <td>9 am-5 pm</td>
+      <td>Technical talks (306 Soda Hall)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>7 pm-10 pm</td>
+      <td>Banquet (Faculty Club)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  The following speakers have confirmed their participation:
+</p>
+<ul>{% for person in site.data.speakers %}
+  <li>{{ person.name }}, {{ person.affil }}</li>{% endfor %}
+</ul>

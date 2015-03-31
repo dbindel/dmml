@@ -1,0 +1,13 @@
+# Site settings
+title: "Development of Modern Methods for Linear Algebra"
+email: bindel@cornell.edu
+description:
+  Conference in Honor of James W. Demmel on his 60th Birthday
+baseurl: "/dmml/"
+url: "http://www.dbindel.net" # the base hostname & protocol for your site
+
+encoding: utf-8
+timezone: America/New_York
+
+# Build settings
+markdown: kramdown
