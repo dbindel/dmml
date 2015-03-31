@@ -13,3 +13,8 @@ available static site generators, in part because it is used in
 [Github Pages][ghpages].  The chief goal of using Jekyll is to
 separate the content from presentation, making it simpler to apply
 general stylistic changes in the future.
+
+[pure]: http://purecss.io/
+[side]: http://purecss.io/layouts/
+[jekyll]: http://jekyllrb.com/
+[ghpages]: https://pages.github.com/
