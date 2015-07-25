@@ -1,0 +1,34 @@
+- date: Fri, Oct 23
+  where: 3010 Banatao Auditorium
+  talks:
+    - time: 1:00-2:30
+      name: 3 talks
+    - time: 2:30-3:00
+      name: break
+    - time: 3:00-4:30
+      name: 3 talks
+    - time: 4:30-5:00
+      name: break
+    - time: 5:00-6:00
+      name: 2 talks
+    - time: 5:00-7:00
+      name: Reception (1015 Evans Hall)
+- date: Sat, Oct 24
+  where: 306 Soda Hall
+  talks:
+    - time: 9:00-10:30
+      name: 3 talks
+    - time: 10:30-11:00
+      name: break
+    - time: 11:00-12:30
+      name: break
+    - time: 12:30-2:00
+      name: lunch
+    - time: 2:00-3:30
+      name: 3 talks
+    - time: 3:30-4:00
+      name: break
+    - time: 4:00-5:00
+      name: 2 talks
+    - time: 7:00-10:00
+      name: Banquet (Faculty Club)
