@@ -34,9 +34,11 @@
       name: Michael Overton
     - time: 10:30-11:00
       name: break
-    - time: 11:00-12:30
-      name: break
-    - time: 12:30-2:00
+    - time: 11:00-11:30
+      name: Ren-Cang Li
+    - time: 11:30-12:00
+      name: Edgar Solomonik
+    - time: 12:00-2:00
       name: lunch
     - time: 2:00-2:30
       name: Laura Grigori
