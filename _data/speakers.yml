@@ -28,6 +28,29 @@
   affil: MIT
 - name: David Garmire
   affil: U Hawaii
+  title: Application of Linear Algebra to Making
+  abstract: |
+    Making has seen an explosion of interest in the public. The growth
+    since 2010 has been 20-30% per year likely reaching an O($10 billion)
+    by 2017. This talk investigates where matrix linear algebra fits
+    into Making and how it could accelerate the growth of the
+    industry. In turn, it also investigates how Making may help
+    accelerate our understanding of matrices at an early age.
+- name: Lana Garmire
+  affil: U Hawaii
+  title: Integration of Big Data in Cancer Research
+  abstract: |
+    With the rapid applications of high throughput technologies such
+    as next generation sequencing as well as the huge amount of
+    publicly available high throughput data, the translational cancer
+    informatics field is granted with bountiful opportunities and yet
+    faced with big challenges at the same time. It is particularly
+    important to address the issues of detecting multiple types of
+    biomarkers arising from different high-throughput platforms. In
+    this talk, I will elaborate my research projects that aim to
+    integrate the transcriptomic (mRNA, microRNA and lincRNA) profiles
+    for cancer diagnosis and prognosis prediction and explore where
+    matrix linear algebra is used in these pipelines.
 - name: Laura Grigori
   affil: INRIA
 - name: Greg Henry
@@ -110,6 +133,17 @@
   sched: done
 - name: Edgar Solominik
   affil: ETH Zurich
+  title: Communication Lower Bounds for Numerical Tensor Algebra
+  abstract: |
+    To make way through a dark passage, one first feels for the walls.
+    To find efficient parallel algorithms, one first derives
+    communication lower bounds. The cost tradeoffs and optimality gaps
+    revealed by lower bounds paint the contours of the algorithmic
+    search space. I will present new lower bounds on communication
+    cost for symmetric tensor contractions and on synchronization cost
+    for dense-matrix factorizations and stencil computations. I will
+    also discuss how both of these two lower bound analyses lead to
+    the discovery of improved algorithms.
 - name: Ken Stanley
   affil: Du Bois Project of Oberlin
   sched: done
