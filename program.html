@@ -1,6 +1,7 @@
 ---
 title: Program
 layout: page
+mathjax: true
 ---
 
 <p>
@@ -10,15 +11,23 @@ layout: page
 
 <table class="pure-table pure-table-horizontal"
        style="margin-left: auto; margin-right: auto">
-  {% for day in site.data.schedule %}
+  {% for day in site.data.schedule %}  
   <thead>
     <td>{{ day.date }}</td>
     <td>Talks in {{ day.where }}</td>
   </thead>
   <tbody>
-  {% for talk in day.talks %}<tr>
+    {% for talk in day.talks %}<tr>
+      {% assign speakers = site.data.speakers | where: "name", talk.name %}
     <td>{{ talk.time }}</td>
-    <td>{{ talk.name }}</td>
+      <td>
+      {% if speakers.size > 0 %}
+      {% for speaker in speakers %}
+      {% if speaker.title %}<a href="#{{ speaker.name | slugify }}">{{ speaker.name }}</a>,{% else %}{{ speaker.name }},{% endif %}
+      {{ speaker.affil }}
+      {% endfor %}
+      {% else %}{{ talk.name }}{% endif %}  
+      </td>
   </tr>{% endfor %}
   </tbody>
   {% endfor %}
@@ -28,5 +37,23 @@ layout: page
   The following speakers have confirmed their participation:
 </p>
 <ul>{% for person in site.data.speakers %}
-  <li>{{ person.name }}, {{ person.affil }}</li>{% endfor %}
+  <li>
+    {% if person.title %}
+    <a href="#{{ person.name | slugify }}">{{ person.name }}, {{ person.affil }}</a>
+    {% else %}
+    {{ person.name }}, {{ person.affil }}
+    {% endif %}
+  </li>{% endfor %}
 </ul>
+
+<h2>Abstracts</h2>
+
+{% for person in site.data.speakers %}
+{% if person.title %}
+<hr/>
+<h3><a name="{{ person.name | slugify }}">{{ person.title }}</a></h3>
+<h4>{{ person.name }}, {{ person.affil }}</h4>
+
+{{ person.abstract | markdownify }}
+{% endif %}
+{% endfor %}

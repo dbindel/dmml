@@ -1,34 +1,54 @@
 - date: Fri, Oct 23
   where: 3010 Banatao Auditorium
   talks:
-    - time: 1:00-2:30
-      name: 3 talks
+    - time: 1:00-1:30
+      name: Grey Ballard
+    - time: 1:30-2:00
+      name: Austin Benson
+    - time: 2:00-2:30
+      name: Erin Carson
     - time: 2:30-3:00
       name: break
-    - time: 3:00-4:30
-      name: 3 talks
+    - time: 3:00-3:30
+      name: Greg Henry
+    - time: 3:30-4:00
+      name: Jeff Bilmes
+    - time: 4:00-4:30
+      name: David Garmire
     - time: 4:30-5:00
       name: break
-    - time: 5:00-6:00
-      name: 2 talks
+    - time: 5:00-5:30
+      name: Tzu-Yi Chen
+    - time: 5:30-6:00
+      name: Ken Stanley
     - time: 5:00-7:00
       name: Reception (1015 Evans Hall)
 - date: Sat, Oct 24
   where: 306 Soda Hall
   talks:
-    - time: 9:00-10:30
-      name: 3 talks
+    - time: 9:00-9:30
+      name: Jiawang Nie
+    - time: 9:30-10:00
+      name: Cho-Jui Hsieh
+    - time: 10:00-10:30
+      name: Michael Overton
     - time: 10:30-11:00
       name: break
     - time: 11:00-12:30
       name: break
     - time: 12:30-2:00
       name: lunch
-    - time: 2:00-3:30
-      name: 3 talks
+    - time: 2:00-2:30
+      name: Laura Grigori
+    - time: 2:30-3:00
+      name: E. Jason Riedy
+    - time: 3:00-3:30
+      name: Richard Vuduc
     - time: 3:30-4:00
       name: break
-    - time: 4:00-5:00
-      name: 2 talks
+    - time: 4:00-4:30
+      name: Alan Edelman
+    - time: 4:30-5:00
+      name: Joel Tropp
     - time: 7:00-10:00
       name: Banquet (Faculty Club)

@@ -6,8 +6,24 @@
   affil: UW
 - name: Erin Carson
   affil: NYU
+  title: Communication-Avoiding Krylov Methods in Theory and Practice
+  abstract: |
+    Solvers for sparse linear algebra problems, ubiquitous throughout
+    scientific codes, often limit application performance due to a low
+    computation/communication ratio. In this talk, we discuss the
+    development of communication-avoiding Krylov subspace methods,
+    which can achieve performance improvements in a wide variety of
+    scientific applications. We discuss complex tradeoffs that arise
+    due to both machine parameters and the numerical properties of the
+    problem, and show how an improved understanding of convergence
+    rate and attainable accuracy in finite precision can be used to
+    develop methods that both avoid communication and meet
+    application-specific numerical constraints. We conclude with
+    recommendations on when we expect these communication-avoiding
+    variants to be beneficial in practice.
 - name: Tzu-Yi Chen
   affil: Pomona
+  sched: done
 - name: Alan Edelman
   affil: MIT
 - name: David Garmire
@@ -16,25 +32,126 @@
   affil: INRIA
 - name: Greg Henry
   affil: Intel
+  title: Software Design for Small Matrices
+  abstract: |
+    Small matrix computations run fastest when they have hand-tuned
+    algorithms just for an application’s specific sizes. While
+    “border” computations never matter for larger problems, for
+    smaller problems they are critical but also far too numerous to
+    include in a library every possible small case. Since there are
+    too many small cases to cover exhaustively, many libraries
+    compromise performance to create a smaller and more manageable
+    foot-print. Sometimes the resulting “compromised” performance is
+    between 0.1 and 0.5 times what’s possible. In this work, we
+    present a high performance implementation of small matrix BLAS for
+    the latest Intel architectures. We show a new way of looking at
+    math libraries and software design to dynamically achieve top
+    performance without this unmanageable foot-print problem, and show
+    how other statically-built solutions (such as exist in Intel® MKL,
+    ATLAS, BLIS, OpenBLAS) are missing performance opportunities.
 - name: Cho-Jui Hsieh
   affil: UT Austin
-- name: Bo K&aring;str&ouml;m
-  affil: Umea
 - name: Ren-Cang Li
   affil: UT Arlington
+  title: The Big Bang Theory in High Accuracy Computations
+  abstract: |
+    Ideally, each computed number commits an error of no more than
+    half unit in its last place (ulp). But in reality, that’s not
+    going to happen. The next best thing is for the error to within a
+    few ulps. That did not seem likely, either, until the big bang:  
+    
+    J. Demmel and W. Kahan. Accurate singular values of bidiagonal
+    matrices. _SIAM J. Sci. Statist. Comput._, 11:873–912, 1990.
+    
+    This talk will take a deep look at the big bang and its aftermath.
 - name: Jiawang Nie
   affil: UCSD
+  title: Real eigenvalues of nonsymmetric tensors
+  abstract: |
+    We discuss the computation of real Z-eigenvalues and H-eigenvalues
+    of nonsymmetric tensors. A general nonsymmetric tensor has
+    finitely many Z-eigenvalues, while there may be infinitely many
+    ones for special tensors. In the contrast, every nonsymmetric
+    tensor has finitely many H-eigenvalues. We propose Lasserre type
+    semidefinite relaxation methods for computing such
+    eigenvalues. For every nonsymmetric tensor that has finitely many
+    real Z-eigenvalues, we can compute all of them; each of them can
+    be computed by solving a finite sequence of semidefinite
+    relaxations. For every nonsymmetric tensor, we can compute all its
+    real H-eigenvalues; each of them can be computed by solving a
+    finite sequence of semidefinite relaxations. This is a joint work
+    with Xinzhen Zhang.
 - name: Michael Overton
   affil: NYU
+  title: "Investigation of Crouzeix's Conjecture via Nonsmooth Optimization"
+  abstract: |
+    M. Crouzeix's 2004 conjecture concerns the relationship between
+    $\|p\|\_{W(A)}$, the norm of a polynomial $p$ on $W(A)$, the field
+    of values of a matrix $A$, and $\|p(A)\|\_2$, the operator norm of
+    the matrix $p(A)$.  We use nonsmooth optimization to investigate
+    the conjecture numerically, using the BFGS
+    (Broyden-Fletcher-Goldfarb-Shanno) method to search for local
+    minimizers of the ``Crouzeix ratio" $\|p\|\_{W(A)}/\|p(A)\|_2$ and
+    Chebfun to compute the boundary of the field of values.  The
+    conjecture states that the globally minimal value of the Crouzeix
+    ratio is 1/2.  We present numerical results that lead to some
+    theorems and further conjectures about globally and locally
+    minimal values of the Crouzeix ratio when varying only $A$ (of
+    given order, with $p$ fixed) or varying only $p$ (of given degree,
+    with $A$ fixed), as well as locally minimal values of the ratio
+    when minimizing over $p$ and $A$.  All the computations strongly
+    support the truth of Crouzeix’s conjecture.
+    
+    This is joint work with Anne Greenbaum and Adrian Lewis.
 - name: E. Jason Riedy
   affil: GA Tech
 - name: Horst Simon
   affil: LBNL
+  sched: done
 - name: Edgar Solominik
   affil: ETH Zurich
 - name: Ken Stanley
   affil: Du Bois Project of Oberlin
+  sched: done
+  title: Making math fun for math-phobic children
+  abstract: |
+    The United States lags many developing countries in educational
+    performance, particularly in our education of children of
+    underrepresented minorities and children from families of lower
+    socio-economic status.  Local funding for schools is part of the
+    problem as students from low income families disproportionately
+    attend poorly funded schools, however, local funding does not
+    explain why these children perform poorly in all schools. In
+    Oberlin, Ohio children from all backgrounds attend the same K-12
+    schools, yet the achievement gap persists.  Motivation, especially
+    intrinsic motivation, drives educational achievement.  The Du Bois
+    Project helps underrepresented minorities and children from low
+    socioeconomic families achieve and maintain excellence in the
+    Oberlin Public Schools by helping them learn to enjoy math.  We
+    will explain how we use running, music, simple psychology and
+    motivated Oberlin College students to make math fun.
 - name: Joel Tropp
   affil: Caltech
+  title: Finding structure with randomness
+  abstract: |
+    Computer scientists have long known that randomness can be used to
+    improve the performance of algorithms. A familiar application is
+    the process of dimension reduction, in which a random map
+    transports data from a high-dimensional space to a
+    lower-dimensional space while approximately preserving some
+    geometric properties. By operating with the compact representation
+    of the data, it is possible to produce approximate solutions to
+    certain large problems very efficiently.
+
+    It has been observed that dimension reduction has powerful
+    applications in numerical linear algebra and numerical
+    analysis. This talk will discuss randomized techniques for
+    constructing standard matrix factorizations, such as the truncated
+    singular value decomposition. In practice, the algorithms are so
+    effective that they compete with—or even outperform—classical
+    algorithms. These methods are already making a significant impact
+    in large-scale scientific computing and learning systems.
+
+    Joint work with P.-G. Martinsson and N. Halko.
 - name: Richard Vuduc
   affil: GA Tech
