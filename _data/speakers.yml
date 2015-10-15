@@ -1,5 +1,25 @@
 - name: Grey Ballard
   affil: Sandia
+  title: Parallel Tensor Compression for Large-Scale Scientific Data
+  abstract: |
+    As high-performance computing trends towards the exascale,
+    scientific data produced by high fidelity simulations in fields
+    such as combustion science are becoming massive, with even modest
+    simulations producing terabytes of data. For instance, a
+    simulation on a three-dimensional spatial grid with 512 points per
+    dimension that tracks 64 variables per grid point for 128 time
+    steps yields 8TB of data. By viewing the data as a dense five-way
+    tensor, we can compute a Tucker tensor approximation to find
+    inherent low-dimensional multilinear structure, achieving large
+    compression ratios with negligible loss in accuracy.  I will
+    present a distributed-memory parallel algorithm and implementation
+    for approximating general dense tensors using a Tucker
+    decomposition. The kernel computations of the algorithm correspond
+    to linear algebra operations on various views of the data. I’ll
+    show results for compression ratios and approximation errors on
+    combustion simulation data, and I’ll discuss run time results,
+    including the key performance-tuning parameters within the
+    algorithm.
 - name: Austin Benson
   affil: Stanford
 - name: Jeff Bilmes
@@ -24,6 +44,7 @@
 - name: Tzu-Yi Chen
   affil: Pomona
   sched: done
+  title: "On communities: algorithms, experiments, and experiences"
 - name: Alan Edelman
   affil: MIT
 - name: David Garmire
@@ -74,6 +95,21 @@
     ATLAS, BLIS, OpenBLAS) are missing performance opportunities.
 - name: Cho-Jui Hsieh
   affil: UT Austin
+  title: Parallel Asynchronous Stochastic Coordinate Descent with Auxiliary Variables
+  abstract: |
+    Stochastic Coordinate Descent (SCD) is now widely used in many
+    machine learning applications. Interestingly, in the most popular
+    SCD algorithms and implementations, a set of auxiliary variables
+    has to be maintained to facilitate efficient computation of each
+    update. In this paper, we study parallel asynchronous SCD for a
+    general family of functions where coordinate descent can be
+    accelerated by maintaining a set of auxiliary variables. Each
+    thread repeatedly selects a random variable and performs efficient
+    updates on both the target and auxiliary variables that are stored
+    in shared memory. Our result provides a theoretical guarantee for
+    many existing parallel coordinate descent solvers. Experimental
+    results show that our methods are much faster than previous
+    parallel coordinate descent solvers.
 - name: Ren-Cang Li
   affil: UT Arlington
   title: The Big Bang Theory in High Accuracy Computations
