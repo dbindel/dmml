@@ -107,7 +107,7 @@
     how other statically-built solutions (such as exist in Intel® MKL,
     ATLAS, BLIS, OpenBLAS) are missing performance opportunities.
 - name: Cho-Jui Hsieh
-  affil: UT Austin
+  affil: UC Davis
   title: Parallel Asynchronous Stochastic Coordinate Descent with Auxiliary Variables
   abstract: |
     Stochastic Coordinate Descent (SCD) is now widely used in many
