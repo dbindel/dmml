@@ -22,6 +22,18 @@
     algorithm.
 - name: Austin Benson
   affil: Stanford
+  title: Network clustering with higher-order structures
+  abstract: |
+    Networks are a common tool in the physical, biological, and social
+    sciences to describe entities (nodes) and the relationships
+    (links) between them.  Two of the fundamental analyses of networks
+    are clustering (partitioning, community detection) and the
+    frequency of network motifs, or patterns of links between nodes.
+    However, these analyses are disjoint as community structure is
+    typically defined by link relationships and ignore motifs.  Here,
+    we develop spectral algorithms to find network community structure
+    defined by motifs.  We show several examples of motif-based
+    communities in networks from a variety of scientific domains.
 - name: Jeff Bilmes
   affil: UW
 - name: Erin Carson
