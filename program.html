@@ -11,7 +11,7 @@ mathjax: true
 
 <table class="pure-table pure-table-horizontal"
        style="margin-left: auto; margin-right: auto">
-  {% for day in site.data.schedule %}  
+  {% for day in site.data.schedule %}
   <thead>
     <td>{{ day.date }}</td>
     <td>Talks in {{ day.where }}</td>
@@ -22,11 +22,12 @@ mathjax: true
     <td>{{ talk.time }}</td>
       <td>
       {% if speakers.size > 0 %}
+      {% if talk.note %}{{ talk.note }}<br/>{% endif %}
       {% for speaker in speakers %}
       {% if speaker.title %}<a href="#{{ speaker.name | slugify }}">{{ speaker.name }}</a>,{% else %}{{ speaker.name }},{% endif %}
       {{ speaker.affil }}
       {% endfor %}
-      {% else %}{{ talk.name }}{% endif %}  
+      {% else %}{{ talk.name }}{% endif %}
       </td>
   </tr>{% endfor %}
   </tbody>
