@@ -177,6 +177,21 @@
     This is joint work with Anne Greenbaum and Adrian Lewis.
 - name: E. Jason Riedy
   affil: GA Tech
+  title: Graph Analysis Beyond Linear Algebra
+  abstract: |
+    High-performance graph analysis is unlocking knowledge in computer
+    security, bioinformatics, social networks, and many other data
+    integration areas.  Graphs provide a convenient abstraction for
+    many data problems beyond linear algebra. Some problems map
+    directly to linear algebra.  Others, like community detection,
+    look eerily similar to sparse linear algebra techniques.  And then
+    there are algorithms that strongly resist attempts at making them
+    look like linear algebra.  This talk will cover recent results
+    with an emphasis on streaming graph problems where the graph
+    changes and results need updated with minimal latency.  We'll also
+    touch on issues of sensitivity and reliability where graph
+    analysis needs to learn from numerical analysis and linear
+    algebra.
 - name: Horst Simon
   affil: LBNL
   sched: done
