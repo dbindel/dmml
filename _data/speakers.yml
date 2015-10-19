@@ -60,6 +60,35 @@
   abstract: ""
 - name: Alan Edelman
   affil: MIT
+  title: Julia, High Performance Computing, and Linear Algebra
+  abstract: |
+    Jim Demmel inspires us all by showing that one can live a life
+    working simultaneously on high performance computing and serious
+    mathematics. Jim never seemed to care about the differences
+    between computer science, computational science, and
+    mathematics. One of the key lessons that I learned from Jim is that
+    if you are going to work on software, it really should be widely
+    used, and if it is widely used, it should be of high quality.
+
+    The Julia computing language takes what we believe to be some of
+    the best practices in computer science and computational science
+    to bring together a fresh approach to technical computing.  Julia
+    solves various versions of the two language problem in that there
+    is no need to translate Julia into another language for speed or
+    deployment, and since Julia is written primarily in Julia, it is
+    more than only open source, it is openly transparent.  This makes
+    Julia popular for scientists and regulators.
+
+    Julia’s use is doubling every nine months (“Moore’s law” style
+    growth) by any number of statistics, including the use of
+    juliabox.org (try it right now!) in classrooms around the world.
+    In this talk, we will describe Julia, consider open problems in
+    high performance computing, and describe the benefits Julia
+    brings to numerical linear algebra.
+
+    This is joint work with the MIT Julia Group, some now at Julia
+    Computing Inc., and Julia developers worldwide.
+    
 - name: David Garmire
   affil: U Hawaii
   title: Application of Linear Algebra to Making
@@ -253,3 +282,14 @@
     Joint work with P.-G. Martinsson and N. Halko.
 - name: Richard Vuduc
   affil: GA Tech
+  title: "Algorithms in the Time of Energy and Power &dagger;"
+  abstract: |
+    This talk considers the following question: Do we need *new*
+    principles of algorithm design, if we wish to minimize energy
+    (Joules) or reduce power (Watts), instead of--or in addition
+    to--time and space? Bring your votes for a straw poll that I will
+    conduct before I offer you my answer. I will also reflect on how I
+    arrived at the question (and answer) "under the influence" of Jim
+    Demmel and a few of his other rabble-rousing associates.
+
+    &dagger; With profuse apology to Gabriel Garcia Marquez.
