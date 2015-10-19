@@ -128,6 +128,22 @@
     matrix linear algebra is used in these pipelines.
 - name: Laura Grigori
   affil: INRIA
+  title: "Communication avoiding algorithms: from early ideas to recent progress"
+  abstract: |
+    One of the major challenges we face in high performance computing
+    is the increased communication cost with respect to computation
+    cost.  In this talk we will review work that we have started in
+    2008, on linear algebra algorithms that minimize communication, in
+    which the communication problem is addressed directly at the
+    numerical algorithmic design.  These communication avoiding
+    algorithms supersede previous approaches to the communication
+    problem based either on scheduling or tuning solutions.
+
+    We will review some of the early communication avoiding algorithms
+    for dense linear algebra as LU or QR factorizations and discuss
+    some recent progress as computing low rank approximations for
+    sparse matrices.
+
 - name: Greg Henry
   affil: Intel
   title: Software Design for Small Matrices
