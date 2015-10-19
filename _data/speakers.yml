@@ -36,6 +36,18 @@
     communities in networks from a variety of scientific domains.
 - name: Jeff Bilmes
   affil: UW
+  title: A PHiPAC Retrospective
+  abstract: |
+    PHiPAC was an early attempt, in the context of matrix
+    multiplication, to improve software performance by searching in a
+    large design space of possible implementations to find the best
+    one. In this talk, we will discuss the origins of PHiPAC,
+    including some of the decision decisions, steps, and missteps
+    that, for better or for worse, were made during the early stages
+    of the project.
+
+    Joint work with Krste Asanovic, Chee-Whye Chin, and Jim Demmel
+
 - name: Erin Carson
   affil: NYU
   title: Communication-Avoiding Krylov Methods in Theory and Practice
