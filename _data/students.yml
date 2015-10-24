@@ -1,38 +1,341 @@
-- name: Erin Carson
-  year: 2015
-- name: Nicolas Knight
-  year: 2015
-- name: Andrew Gearhart
-  year: 2014
-- name: Edgar Solomonik
-  year: 2014
-- name: Grey Ballard
-  year: 2013
-- name: Mark Hoemmen
-  year: 2010
-- name: Jason Riedy
-  year: 2010
-- name: Bill Kramer
-  year: 2008
-- name: David Garmire
-  year: 2007
-- name: David Bindel
-  year: 2006
-- name: Jiawang Nie
-  year: 2006
-- name: Rich Vuduc
-  year: 2003
-- name: Plamen Koev
-  year: 2002
-- name: Tzu-Yi Chen
-  year: 2001
-- name: David Blackston
+phd:
+-
+  name: Manocha Dinesh
+  type: PhD
+  field: CS
+  year: 1992
+  reln: thesis committee member
+-
+  name: Xiaoye Li
+  type: PhD
+  field: CS
+  year: 1996
+  reln: graduate adviser
+-
+  name: Huan Ren
+  type: PhD
+  field: Math
+  year: 1996
+  reln: graduate adviser
+-
+  name: Inderjit Dhillon
+  type: PhD
+  field: CS
+  year: 1997
+  reln: graduate adviser
+-
+  name: Ken Stanley
+  type: PhD
+  field: CS
+  year: 1997
+  reln: graduate adviser
+-
+  name: Mark Adams
+  type: PhD
+  field: CEE
+  year: 1998
+  reln: graduate co-adviser
+-
+  name: Daniel Wilkerson
+  type: PhD
+  field: Math
+  year: 1998
+  reln: graduate adviser
+-
+  name: David Blackston
+  type: PhD
+  field: CS
   year: 2000
-- name: Inderjit Dhillon
-  year: 1997
-- name: Ken Stanley
-  year: 1997
-- name: Xiaoye Li
+  reln: graduate adviser
+-
+  name: Tzu-Yi Chen
+  type: PhD
+  field: CS
+  year: 2001
+  reln: graduate adviser
+-
+  name: Plamen Koev
+  type: PhD
+  field: Math
+  year: 2002
+  reln: graduate adviser
+-
+  name: Richard Vuduc
+  type: PhD
+  field: CS
+  year: 2003
+  reln: graduate adviser
+-
+  name: Jason Clark
+  type: PhD
+  field: "AS&T"
+  year: 2005
+  reln: graduate co-adviser
+-
+  name: Jiawang Nie
+  type: PhD
+  field: Math
+  year: 2006
+  reln: graduate adviser
+-
+  name: David Bindel
+  type: PhD
+  field: CS
+  year: 2006
+  reln: graduate co-adviser
+-
+  name: David Garmire
+  type: PhD
+  field: CS
+  year: 2007
+  reln: graduate adviser
+-
+  name: Yozo Hida
+  type: PhD
+  field: CS
+  year: 2007 (expected)
+  reln: graduate adviser
+-
+  name: William Kramer
+  type: PhD
+  field: CS
+  year: 2008
+  reln: graduate co-adviser
+-
+  name: Edward Jason Riedy
+  type: PhD
+  field: CS
+  year: 2010
+  reln: graduate adviser
+-
+  name: Mark Hoemmen
+  type: PhD
+  field: CS
+  year: 2010
+  reln: graduate adviser
+-
+  name: Grey Ballard
+  type: PhD
+  field: CS
+  year: 2013
+  reln: graduate adviser
+-
+  name: Edgar Solomonik
+  type: PhD
+  field: CS
+  year: 2014
+  reln: graduate adviser
+-
+  name: Andrew Gearhart
+  type: PhD
+  field: CS
+  year: 2014
+  reln: graduate adviser
+-
+  name: Nicholas Knight
+  type: PhD
+  field: CS
+  year: 2015
+  reln: graduate adviser
+-
+  name: Erin Carson
+  type: PhD
+  field: CS
+  year: 2015
+  reln: graduate adviser
+-
+  name: Vasily Volkov
+  type: PhD
+  field: CS
+  year: 2016 (expected)
+  reln: graduate adviser
+-
+  name: Orianna DeMasi
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate adviser
+-
+  name: Evangelos Georganas
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate co-adviser
+-
+  name: Rebecca Roelofs
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate co-adviser
+-
+  name: Aditya Devarakonda
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate adviser
+-
+  name: Yang You
+  type: PhD
+  field: CS
+  year: 2020 (expected)
+  reln: graduate adviser
+-
+  name: David Dinh
+  type: PhD
+  field: CS
+  year: 2020 (expected)
+  reln: graduate adviser
+
+ms:
+-
+  name: Mir Assadullah
+  type: MS
+  year: 1990 (or before)
+  reln: graduate adviser
+-
+  name: Richard B. Kraft
+  type: MS
+  field: Math
+  year: 1990
+  reln: thesis committee member
+-
+  name: Jeff Rutter
+  type: MS
+  field: Math
+  year: 1994
+  reln: graduate adviser
+-
+  name: Andrei Zege
+  type: MS
+  field: CS
   year: 1996
-- name: Huan Ren
+  reln: graduate adviser
+-
+  name: Balazs Kralik
+  type: MS
+  field: CS
   year: 1996
+  reln: graduate adviser
+- 
+  name: Oleg Zahkarov
+  type: MS
+  field: CS
+  year: 1996
+  reln: graduate adviser
+-
+  name: Bernd Pfrommer
+  type: MS
+  field: CS
+  year: 1997
+  reln: graduate adviser
+-
+  name: Howard Robinson
+  type: MS
+  field: CS
+  year: 2000
+  reln: graduate adviser
+-
+  name: Ben Diament
+  type: MS
+  field: CS
+  year: 2005
+  reln: graduate adviser
+-
+  name: Hormozd Gahvari
+  type: MS
+  field: CS
+  year: 2006
+  reln: graduate co-adviser
+-
+  name: Amik Singh
+  type: MS
+  field: CS
+  year: 2012
+  reln: graduate adviser
+-
+  name: Neil Thompson
+  type: MS
+  field: CS
+  year: 2012
+  reln: graduate adviser
+-
+  name: Benjamin Lipshitz
+  type: MS
+  field: CS
+  year: 2013
+  reln: graduate adviser
+-
+  name: Razvan Carbunescu
+  type: MS
+  field: CS
+  year: 2014
+  reln: graduate adviser
+-
+  name: Ankit Jain
+  type: MS
+  field: CS
+  year: 2008
+  reln: graduate co-adviser
+
+postdoc:
+-
+  name: Zhaojun Bai
+  type: postdoctoral adviser
+  year: 1990 (or before)
+-
+  name: Alan McKenney
+  type: postdoctoral
+  year: 1990 (or before)
+-
+  name: Alan Edelman
+  from: 1990
+  year: 1993
+  type: postdoctoral adviser
+-
+  name: Sharon Smith
+  from: 1993
+  year: 1996
+  type: postdoctoral adviser
+-
+  name: Ming Gu
+  from: 1993
+  year: 1996
+  type: postdoctoral adviser
+-
+  name: Laura Grigori
+  year: 2003
+  type: postdoctoral adviser
+-
+  name: Christof Voemel
+  year: 2003
+  type: postdoctoral adviser
+-
+  name: Ioana Dumitriu
+  from: 2003
+  year: 2006
+  type: postdoctoral adviser
+-
+  name: Olga Holtz
+  from: 2003
+  year: 2006
+  type: postdoctoral adviser
+-
+  name: Oded Schwartz
+  from: 2011
+  year: 2014
+  type: postdoctoral adviser
+-
+  name: Jong-Ho Byun
+  from: 2011
+  year: 2014
+  type: postdoctoral adviser
+-
+  name: Cindy Rubio-Gonzalez
+  from: 2012
+  year: 2014
+  type: postdoctoral co-adviser
+-
+  name: Hong Diep Nguyen
+  from: 2011
+  year: 2015
+  type: postdoctoral adviser
