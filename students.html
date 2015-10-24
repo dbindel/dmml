@@ -1,0 +1,28 @@
+---
+title: Students
+layout: page
+---
+
+<table class="pure-table pure-table-horizontal"
+       style="margin-left: auto; margin-right: auto">
+  <thead>
+    <td>Graduated</td>
+    <td>Name</td>
+  </thead>
+  <tbody>
+    {% for student in site.data.students %}
+    <tr>
+      <td>{{ student.year }}</td>
+      <td>{{ student.name }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Sources</h2>
+
+<ul>
+  <li><a href="http://www.eecs.berkeley.edu/Pubs/Dissertations/Faculty/demmel.html">EECS dissertation listing</a></li>
+  <li><a href="https://math.berkeley.edu/people/past-phds">Berkeley math past PhDs</a></li>
+  <li><a href="http://www.cs.berkeley.edu/~demmel/">Jim Demmel home page</a></li>
+</ul>
