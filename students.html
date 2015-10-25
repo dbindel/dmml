@@ -19,7 +19,10 @@ layout: page
     <tr>
       <td>{{ student.year }}</td>
       <td>{{ student.field }}</td>
-      <td>{{ student.name }}</td>
+      <td>{{ student.name }}
+        {% if student.thesis %}<br/>
+        {% if student.thesis_url %}<a href="{{ student.thesis_url }}">{{ student.thesis }}</a>{% else %}{{ student.thesis }}{% endif %}
+        {% endif %}</td>
       <td>{{ student.reln }}</td>
     </tr>
     {% endfor %}

@@ -5,90 +5,117 @@ phd:
   field: CS
   year: 1992
   reln: thesis committee member
+  thesis: Algebraic and Numeric Techniques in Modeling and Robotics
+  thesis_url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.9669
 -
   name: Xiaoye Li
   type: PhD
   field: CS
   year: 1996
   reln: graduate adviser
+  thesis: Sparse Gaussian Elimination on High Performance Computers
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/1996/5814.html
 -
   name: Huan Ren
   type: PhD
   field: Math
   year: 1996
   reln: graduate adviser
+  thesis: On the Error Analysis and Implementation of Some Eigenvalue Decomposition and Singular Value Decomposition Algorithms
+  thesis_url: http://digitalassets.lib.berkeley.edu/techreports/ucb/text/CSD-96-904.pdf
 -
   name: Inderjit Dhillon
   type: PhD
   field: CS
   year: 1997
   reln: graduate adviser
+  thesis: A New O(n^2) Algorithm for the Symmetric Tridiagonal Eigenvalue/Eigenvector Problem
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/1997/5888.html
 -
   name: Ken Stanley
   type: PhD
   field: CS
   year: 1997
   reln: graduate adviser
+  thesis: Execution Time of Symmetric Eigensolvers
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/1997/6418.html
 -
   name: Mark Adams
   type: PhD
   field: CEE
   year: 1998
   reln: graduate co-adviser
+  thesis: Multigrid Equation Solvers for Large Scale Nonlinear Finite Element Simulations
+  thesis_url: http://crd.lbl.gov/assets/Uploads/ANAG/adamsdissertation.pdf
 -
   name: Daniel Wilkerson
   type: PhD
   field: Math
   year: 1998
   reln: graduate adviser
+  thesis: "Communication on Networks of Finite Automata: Three Instances of Wormhole Routing"
 -
   name: David Blackston
   type: PhD
   field: CS
   year: 2000
   reln: graduate adviser
+  thesis: "Pbody: A parallel N-Body Library"
 -
   name: Tzu-Yi Chen
   type: PhD
   field: CS
   year: 2001
   reln: graduate adviser
+  thesis: Preconditioning Sparse Matrices for Computing Eigenvalues and Solving Linear Systems of Equations
+  thesis_url: http://www.cs.pomona.edu/~tzuyi/Papers/phd_thesis.pdf
 -
   name: Plamen Koev
   type: PhD
   field: Math
   year: 2002
   reln: graduate adviser
+  thesis: Accurate and Efficient Computations with Structured Matrices
+  thesis_url: http://www-math.mit.edu/~plamen/files/KoevThesis.pdf
 -
   name: Richard Vuduc
   type: PhD
   field: CS
   year: 2003
   reln: graduate adviser
+  thesis: Automatic Performance Tuning of Sparse Matrix Kernels
+  thesis_url: http://bebop.cs.berkeley.edu/pubs/vuduc2003-dissertation.pdf
 -
   name: Jason Clark
   type: PhD
   field: "AS&T"
   year: 2005
   reln: graduate co-adviser
+  thesis: Electro Micro-Metrology
 -
   name: Jiawang Nie
   type: PhD
   field: Math
   year: 2006
   reln: graduate adviser
+  thesis: Global Optimization and Polynomial Functions and Applications
+  thesis_url: http://math.ucsd.edu/~njw/PHD/njwphdthesis.pdf
 -
   name: David Bindel
   type: PhD
   field: CS
   year: 2006
   reln: graduate co-adviser
+  thesis: Structured and Parameter-Dependent Eigensolvers for Simulation-Based Design of Resonant MEMS
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-108.html
 -
   name: David Garmire
   type: PhD
   field: CS
   year: 2007
   reln: graduate adviser
+  thesis: Methods and Devices for Optical and Electrical Metrology with Application to Phase-Shifting Interferometers, Torsional Microstructures, and Levitated Accelerometers
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-118.html
 -
   name: Yozo Hida
   type: PhD
@@ -101,48 +128,64 @@ phd:
   field: CS
   year: 2008
   reln: graduate co-adviser
+  thesis: "PERCU: A Holistic Method for Evaluating High Performance Computing Systems"
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2008/EECS-2008-143.html
 -
   name: Edward Jason Riedy
   type: PhD
   field: CS
   year: 2010
   reln: graduate adviser
+  thesis: Making Static Pivoting Scalable and Dependable
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-172.html
 -
   name: Mark Hoemmen
   type: PhD
   field: CS
   year: 2010
   reln: graduate adviser
+  thesis: Communication-avoiding Krylov subspace methods
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-37.html
 -
   name: Grey Ballard
   type: PhD
   field: CS
   year: 2013
   reln: graduate adviser
+  thesis: Avoiding Communication in Dense Linear Algebra
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-151.html
 -
   name: Edgar Solomonik
   type: PhD
   field: CS
   year: 2014
   reln: graduate adviser
+  thesis: Provably Efficient Algorithms for Numerical Tensor Algebra
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-170.html
 -
   name: Andrew Gearhart
   type: PhD
   field: CS
   year: 2014
   reln: graduate adviser
+  thesis: Bounds on the Energy Consumption of Computational Kernels
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-175.html
 -
   name: Nicholas Knight
   type: PhD
   field: CS
   year: 2015
   reln: graduate adviser
+  thesis: Communication-Optimal Loop Nests
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-185.html
 -
   name: Erin Carson
   type: PhD
   field: CS
   year: 2015
   reln: graduate adviser
+  thesis: Communication-Avoiding Krylov Subspace Methods in Theory and Practice
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-179.html
 -
   name: Vasily Volkov
   type: PhD
