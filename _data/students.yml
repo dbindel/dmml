@@ -247,6 +247,12 @@ ms:
   year: 2006
   reln: graduate co-adviser
 -
+  name: Ankit Jain
+  type: MS
+  field: CS
+  year: 2008
+  reln: graduate co-adviser
+-
   name: Amik Singh
   type: MS
   field: CS
@@ -270,12 +276,6 @@ ms:
   field: CS
   year: 2014
   reln: graduate adviser
--
-  name: Ankit Jain
-  type: MS
-  field: CS
-  year: 2008
-  reln: graduate co-adviser
 
 postdoc:
 -
