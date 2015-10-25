@@ -1,10 +1,6 @@
 - name: Home
   link: index
-- name: Registration
-  link: registration
 - name: Program
   link: program
-- name: "Travel &amp; Hotels"
-  link: travel
 - name: Demmel students
   link: students
