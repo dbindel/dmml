@@ -1,6 +1,7 @@
 - name: Grey Ballard
   affil: Sandia
   title: Parallel Tensor Compression for Large-Scale Scientific Data
+  slides: http://www.dbindel.net/dmml/talks/ballard.pdf
   abstract: |
     As high-performance computing trends towards the exascale,
     scientific data produced by high fidelity simulations in fields
