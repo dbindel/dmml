@@ -256,6 +256,7 @@
 - name: Edgar Solominik
   affil: ETH Zurich
   title: Communication Lower Bounds for Numerical Tensor Algebra
+  slides: https://www.inf.ethz.ch/personal/edgar.solomonik/talks/dmml_oct24_2015.pdf
   abstract: |
     To make way through a dark passage, one first feels for the walls.
     To find efficient parallel algorithms, one first derives
