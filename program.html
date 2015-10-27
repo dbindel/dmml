@@ -10,19 +10,22 @@ mathjax: true
   <thead>
     <td>{{ day.date }}</td>
     <td>Talks in {{ day.where }}</td>
+    <td></td>
   </thead>
   <tbody>
     {% for talk in day.talks %}<tr>
       {% assign speakers = site.data.speakers | where: "name", talk.name %}
     <td>{{ talk.time }}</td>
-      <td>
+    <td>
       {% if speakers.size > 0 %}
       {% if talk.note %}{{ talk.note }}<br/>{% endif %}
       {% for speaker in speakers %}
       {% if speaker.title %}<a href="#{{ speaker.name | slugify }}">{{ speaker.name }}</a>,{% else %}{{ speaker.name }},{% endif %}
       {{ speaker.affil }}
+    </td>
+    <td>{% if speaker.slides %}<a href="{{ speaker.slides }}">[slides]</a>{% endif %}</td>
       {% endfor %}
-      {% else %}{{ talk.name }}{% endif %}
+      {% else %}{{ talk.name }}</td><td></td>{% endif %}
       </td>
   </tr>{% endfor %}
   </tbody>
@@ -48,6 +51,7 @@ mathjax: true
 <hr/>
 <h3><a name="{{ person.name | slugify }}">{{ person.title }}</a></h3>
 <h4>{{ person.name }}, {{ person.affil }}</h4>
+{% if person.slides %}<h4><a href="{{ person.slides }}">[slides]</a></h4>{% endif %}
 
 {{ person.abstract | markdownify }}
 {% endif %}

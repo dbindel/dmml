@@ -235,6 +235,7 @@
 - name: E. Jason Riedy
   affil: GA Tech
   title: Graph Analysis Beyond Linear Algebra
+  slides: http://www.dbindel.net/dmml/talks/riedy.pdf
   abstract: |
     High-performance graph analysis is unlocking knowledge in computer
     security, bioinformatics, social networks, and many other data
@@ -288,6 +289,7 @@
 - name: Joel Tropp
   affil: Caltech
   title: Finding structure with randomness
+  slides: http://www.dbindel.net/dmml/talks/tropp.pdf
   abstract: |
     Computer scientists have long known that randomness can be used to
     improve the performance of algorithms. A familiar application is
