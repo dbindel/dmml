@@ -253,7 +253,9 @@
     algebra.
 - name: Horst Simon
   affil: LBNL
-  sched: done
+  title: Six Books
+  slides: http://www.dbindel.net/dmml/talks/simon.pdf
+  abstract: ""
 - name: Edgar Solominik
   affil: ETH Zurich
   title: Communication Lower Bounds for Numerical Tensor Algebra
