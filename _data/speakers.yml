@@ -184,6 +184,7 @@
 - name: Ren-Cang Li
   affil: UT Arlington
   title: The Big Bang Theory in High Accuracy Computations
+  slides: http://www.dbindel.net/dmml/talks/rencangli.pdf
   abstract: |
     Ideally, each computed number commits an error of no more than
     half unit in its last place (ulp). But in reality, that’s not
