@@ -68,7 +68,7 @@
     variants to be beneficial in practice.
 - name: Tzu-Yi Chen
   affil: Pomona
-  sched: done
+  slides: http://www.dbindel.net/dmml/talks/chen.pdf
   title: "On communities: algorithms, experiments, and experiences"
   abstract: ""
 - name: Alan Edelman
