@@ -1,0 +1,82 @@
+---
+title: Students
+layout: page
+---
+
+<h2>PhD students</h2>
+
+<table class="pure-table pure-table-horizontal"
+       style="margin-left: auto; margin-right: auto">
+
+  <thead>
+    <td>Year</td>
+    <td>Field</td>
+    <td>Name</td>
+    <td>Relation</td>
+  </thead>
+  <tbody>
+    {% for student in site.data.students.phd sorted:year %}
+    <tr>
+      <td>{{ student.year }}</td>
+      <td>{{ student.field }}</td>
+      <td>{{ student.name }}
+        {% if student.thesis %}<br/>
+        {% if student.thesis_url %}<a href="{{ student.thesis_url }}">{{ student.thesis }}</a>{% else %}{{ student.thesis }}{% endif %}
+        {% endif %}</td>
+      <td>{{ student.reln }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<h2>MS students</h2>
+
+<table class="pure-table pure-table-horizontal"
+       style="margin-left: auto; margin-right: auto">
+  <thead>
+    <td>Graduated (MS)</td>
+    <td>Field</td>
+    <td>Name</td>
+    <td>Relation</td>
+  </thead>
+  <tbody>
+    {% for student in site.data.students.ms sorted:year %}
+    <tr>
+      <td>{{ student.year }}</td>
+      <td>{{ student.field }}</td>
+      <td>{{ student.name }}</td>
+      <td>{{ student.reln }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<h2>Postdoctoral students</h2>
+
+<table class="pure-table pure-table-horizontal"
+       style="margin-left: auto; margin-right: auto">
+  <thead>
+    <td>Postdoc years</td>
+    <td>Name</td>
+  </thead>
+  <tbody>
+    {% for student in site.data.students.postdoc sorted:year %}
+    <tr>
+      <td>{% if student.from %}{{ student.from }}-{% endif %}{{ student.year }}</td>
+      <td>{{ student.name }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<h2>Sources</h2>
+
+<ul>
+  <li>Jim's CV!</li>
+  <li><a href="http://www.eecs.berkeley.edu/Pubs/Dissertations/Faculty/demmel.html">EECS dissertation listing</a></li>
+  <li><a href="https://math.berkeley.edu/people/past-phds">Berkeley math past PhDs</a></li>
+  <li><a href="http://www.cs.berkeley.edu/~demmel/">Jim Demmel home page</a></li>
+</ul>

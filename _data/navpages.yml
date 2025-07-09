@@ -1,0 +1,4 @@
+- name: Home
+  link: index
+- name: Demmel students
+  link: students

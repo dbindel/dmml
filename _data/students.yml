@@ -1,0 +1,384 @@
+phd:
+-
+  name: Dinesh Manocha
+  type: PhD
+  field: CS
+  year: 1992
+  reln: thesis committee member
+  thesis: Algebraic and Numeric Techniques in Modeling and Robotics
+  thesis_url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.9669
+-
+  name: Xiaoye Li
+  type: PhD
+  field: CS
+  year: 1996
+  reln: graduate adviser
+  thesis: Sparse Gaussian Elimination on High Performance Computers
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/1996/5814.html
+-
+  name: Huan Ren
+  type: PhD
+  field: Math
+  year: 1996
+  reln: graduate adviser
+  thesis: On the Error Analysis and Implementation of Some Eigenvalue Decomposition and Singular Value Decomposition Algorithms
+  thesis_url: http://digitalassets.lib.berkeley.edu/techreports/ucb/text/CSD-96-904.pdf
+-
+  name: Inderjit Dhillon
+  type: PhD
+  field: CS
+  year: 1997
+  reln: graduate adviser
+  thesis: A New O(n^2) Algorithm for the Symmetric Tridiagonal Eigenvalue/Eigenvector Problem
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/1997/5888.html
+-
+  name: Ken Stanley
+  type: PhD
+  field: CS
+  year: 1997
+  reln: graduate adviser
+  thesis: Execution Time of Symmetric Eigensolvers
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/1997/6418.html
+-
+  name: Mark Adams
+  type: PhD
+  field: CEE
+  year: 1998
+  reln: graduate co-adviser
+  thesis: Multigrid Equation Solvers for Large Scale Nonlinear Finite Element Simulations
+  thesis_url: http://crd.lbl.gov/assets/Uploads/ANAG/adamsdissertation.pdf
+-
+  name: Daniel Wilkerson
+  type: PhD
+  field: Math
+  year: 1998
+  reln: graduate adviser
+  thesis: "Communication on Networks of Finite Automata: Three Instances of Wormhole Routing"
+-
+  name: David Blackston
+  type: PhD
+  field: CS
+  year: 2000
+  reln: graduate adviser
+  thesis: "Pbody: A parallel N-Body Library"
+-
+  name: Tzu-Yi Chen
+  type: PhD
+  field: CS
+  year: 2001
+  reln: graduate adviser
+  thesis: Preconditioning Sparse Matrices for Computing Eigenvalues and Solving Linear Systems of Equations
+  thesis_url: http://www.cs.pomona.edu/~tzuyi/Papers/phd_thesis.pdf
+-
+  name: Plamen Koev
+  type: PhD
+  field: Math
+  year: 2002
+  reln: graduate adviser
+  thesis: Accurate and Efficient Computations with Structured Matrices
+  thesis_url: http://www-math.mit.edu/~plamen/files/KoevThesis.pdf
+-
+  name: Richard Vuduc
+  type: PhD
+  field: CS
+  year: 2003
+  reln: graduate adviser
+  thesis: Automatic Performance Tuning of Sparse Matrix Kernels
+  thesis_url: http://bebop.cs.berkeley.edu/pubs/vuduc2003-dissertation.pdf
+-
+  name: Jason Clark
+  type: PhD
+  field: "AS&T"
+  year: 2005
+  reln: graduate co-adviser
+  thesis: Electro Micro-Metrology
+-
+  name: Jiawang Nie
+  type: PhD
+  field: Math
+  year: 2006
+  reln: graduate adviser
+  thesis: Global Optimization and Polynomial Functions and Applications
+  thesis_url: http://math.ucsd.edu/~njw/PHD/njwphdthesis.pdf
+-
+  name: David Bindel
+  type: PhD
+  field: CS
+  year: 2006
+  reln: graduate co-adviser
+  thesis: Structured and Parameter-Dependent Eigensolvers for Simulation-Based Design of Resonant MEMS
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-108.html
+-
+  name: David Garmire
+  type: PhD
+  field: CS
+  year: 2007
+  reln: graduate adviser
+  thesis: Methods and Devices for Optical and Electrical Metrology with Application to Phase-Shifting Interferometers, Torsional Microstructures, and Levitated Accelerometers
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2007/EECS-2007-118.html
+-
+  name: Yozo Hida
+  type: PhD
+  field: CS
+  year: 2007 (expected)
+  reln: graduate adviser
+-
+  name: William Kramer
+  type: PhD
+  field: CS
+  year: 2008
+  reln: graduate co-adviser
+  thesis: "PERCU: A Holistic Method for Evaluating High Performance Computing Systems"
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2008/EECS-2008-143.html
+-
+  name: Edward Jason Riedy
+  type: PhD
+  field: CS
+  year: 2010
+  reln: graduate adviser
+  thesis: Making Static Pivoting Scalable and Dependable
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-172.html
+-
+  name: Mark Hoemmen
+  type: PhD
+  field: CS
+  year: 2010
+  reln: graduate adviser
+  thesis: Communication-avoiding Krylov subspace methods
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-37.html
+-
+  name: Grey Ballard
+  type: PhD
+  field: CS
+  year: 2013
+  reln: graduate adviser
+  thesis: Avoiding Communication in Dense Linear Algebra
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-151.html
+-
+  name: Edgar Solomonik
+  type: PhD
+  field: CS
+  year: 2014
+  reln: graduate adviser
+  thesis: Provably Efficient Algorithms for Numerical Tensor Algebra
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-170.html
+-
+  name: Andrew Gearhart
+  type: PhD
+  field: CS
+  year: 2014
+  reln: graduate adviser
+  thesis: Bounds on the Energy Consumption of Computational Kernels
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-175.html
+-
+  name: Nicholas Knight
+  type: PhD
+  field: CS
+  year: 2015
+  reln: graduate adviser
+  thesis: Communication-Optimal Loop Nests
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-185.html
+-
+  name: Erin Carson
+  type: PhD
+  field: CS
+  year: 2015
+  reln: graduate adviser
+  thesis: Communication-Avoiding Krylov Subspace Methods in Theory and Practice
+  thesis_url: http://www.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-179.html
+-
+  name: Vasily Volkov
+  type: PhD
+  field: CS
+  year: 2016 (expected)
+  reln: graduate adviser
+-
+  name: Orianna DeMasi
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate adviser
+-
+  name: Evangelos Georganas
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate co-adviser
+-
+  name: Rebecca Roelofs
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate co-adviser
+-
+  name: Aditya Devarakonda
+  type: PhD
+  field: CS
+  year: 2017 (expected)
+  reln: graduate adviser
+-
+  name: Yang You
+  type: PhD
+  field: CS
+  year: 2020 (expected)
+  reln: graduate adviser
+-
+  name: David Dinh
+  type: PhD
+  field: CS
+  year: 2020 (expected)
+  reln: graduate adviser
+
+ms:
+-
+  name: Mir Assadullah
+  type: MS
+  year: 1990 (or before)
+  reln: graduate adviser
+-
+  name: Richard B. Kraft
+  type: MS
+  field: Math
+  year: 1990
+  reln: thesis committee member
+-
+  name: Jeff Rutter
+  type: MS
+  field: Math
+  year: 1994
+  reln: graduate adviser
+-
+  name: Andrei Zege
+  type: MS
+  field: CS
+  year: 1996
+  reln: graduate adviser
+-
+  name: Balazs Kralik
+  type: MS
+  field: CS
+  year: 1996
+  reln: graduate adviser
+- 
+  name: Oleg Zahkarov
+  type: MS
+  field: CS
+  year: 1996
+  reln: graduate adviser
+-
+  name: Bernd Pfrommer
+  type: MS
+  field: CS
+  year: 1997
+  reln: graduate adviser
+-
+  name: Howard Robinson
+  type: MS
+  field: CS
+  year: 2000
+  reln: graduate adviser
+-
+  name: Ben Diament
+  type: MS
+  field: CS
+  year: 2005
+  reln: graduate adviser
+-
+  name: Hormozd Gahvari
+  type: MS
+  field: CS
+  year: 2006
+  reln: graduate co-adviser
+-
+  name: Ankit Jain
+  type: MS
+  field: CS
+  year: 2008
+  reln: graduate co-adviser
+-
+  name: Amik Singh
+  type: MS
+  field: CS
+  year: 2012
+  reln: graduate adviser
+-
+  name: Neil Thompson
+  type: MS
+  field: CS
+  year: 2012
+  reln: graduate adviser
+-
+  name: Benjamin Lipshitz
+  type: MS
+  field: CS
+  year: 2013
+  reln: graduate adviser
+-
+  name: Razvan Carbunescu
+  type: MS
+  field: CS
+  year: 2014
+  reln: graduate adviser
+
+postdoc:
+-
+  name: Zhaojun Bai
+  type: postdoctoral adviser
+  year: 1990 (or before)
+-
+  name: Alan McKenney
+  type: postdoctoral
+  year: 1990 (or before)
+-
+  name: Alan Edelman
+  from: 1990
+  year: 1993
+  type: postdoctoral adviser
+-
+  name: Sharon Smith
+  from: 1993
+  year: 1996
+  type: postdoctoral adviser
+-
+  name: Ming Gu
+  from: 1993
+  year: 1996
+  type: postdoctoral adviser
+-
+  name: Laura Grigori
+  year: 2003
+  type: postdoctoral adviser
+-
+  name: Christof Voemel
+  year: 2003
+  type: postdoctoral adviser
+-
+  name: Ioana Dumitriu
+  from: 2003
+  year: 2006
+  type: postdoctoral adviser
+-
+  name: Olga Holtz
+  from: 2003
+  year: 2006
+  type: postdoctoral adviser
+-
+  name: Oded Schwartz
+  from: 2011
+  year: 2014
+  type: postdoctoral adviser
+-
+  name: Jong-Ho Byun
+  from: 2011
+  year: 2014
+  type: postdoctoral adviser
+-
+  name: Cindy Rubio-Gonzalez
+  from: 2012
+  year: 2014
+  type: postdoctoral co-adviser
+-
+  name: Hong Diep Nguyen
+  from: 2011
+  year: 2015
+  type: postdoctoral adviser
