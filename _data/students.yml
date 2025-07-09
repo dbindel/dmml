@@ -190,44 +190,88 @@ phd:
   name: Vasily Volkov
   type: PhD
   field: CS
-  year: 2016 (expected)
+  year: 2016
   reln: graduate adviser
--
-  name: Orianna DeMasi
-  type: PhD
-  field: CS
-  year: 2017 (expected)
-  reln: graduate adviser
--
-  name: Evangelos Georganas
-  type: PhD
-  field: CS
-  year: 2017 (expected)
-  reln: graduate co-adviser
--
-  name: Rebecca Roelofs
-  type: PhD
-  field: CS
-  year: 2017 (expected)
-  reln: graduate co-adviser
+  thesis: Understanding Latency Hiding on GPUs
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-143.html
 -
   name: Aditya Devarakonda
   type: PhD
   field: CS
-  year: 2017 (expected)
+  year: 2018
   reln: graduate adviser
+  thesis: Avoiding Communication in First Order Methods for Optimization
+  thesis_url: https://escholarship.org/uc/item/3rm6d2mf
+-
+  name: Orianna DeMasi
+  type: PhD
+  field: CS
+  year: 2019
+  reln: graduate co-adviser
+  thesis: Evaluation of Methods for Data-Driven Tools that Empower Mental Health Professionals
+  thesis_url: https://escholarship.org/uc/item/8c09359d
+-
+  name: Rebecca Roelofs
+  type: PhD
+  field: CS
+  year: 2019
+  reln: graduate co-adviser
+  thesis: Measuring Generalization and Overfitting in Machine Learning
+  thesis_url: https://escholarship.org/uc/item/6j01x9mz
+-
+  name: Alex Rusciano
+  type: PhD
+  field: Math
+  year: 2019
+  reln: graduate adviser
+  thesis: "Two Geometric Results regarding Hölder-Brascamp-Lieb Inequalities, and Two Novel Algorithms for Low-Rank Approximation"
+  thesis_url: https://escholarship.org/uc/item/4sh6n9db
 -
   name: Yang You
   type: PhD
   field: CS
-  year: 2020 (expected)
+  year: 2020
   reln: graduate adviser
+  thesis: Fast and Accurate Machine Learning on Distributed Systems and Supercomputers
+  thesis_url: https://escholarship.org/uc/item/29s611jx
 -
-  name: David Dinh
+  name: Grace Dinh
   type: PhD
   field: CS
-  year: 2020 (expected)
+  year: 2023
   reln: graduate adviser
+  thesis: Optimization-Based Mappers and Lower Bounds for Tensor Problems
+  thesis_url: https://escholarship.org/uc/item/1jk021n0
+-
+  name: Vivek Bharadwaj
+  type: PhD
+  field: CS
+  year: 2025 (expected)
+  reln: graduate co-adviser
+-
+  name: Tianyu Liang
+  type: PhD
+  field: CS
+  year: 2026 (expected)
+  reln: graduate co-adviser
+-
+  name: Roger Hsiao
+  type: PhD
+  field: CS
+  year: 2026 (expected)
+  reln: graduate co-adviser
+-
+  name: Yen-Hsiang Chang
+  type: PhD
+  field: CS
+  year: 2027 (expected)
+  reln: graduate co-adviser
+-
+  name: Yuchen Fang
+  type: PhD
+  field: Math
+  year: 2028 (expected)
+  reln: graduate co-adviser
 
 ms:
 -
@@ -259,7 +303,7 @@ ms:
   field: CS
   year: 1996
   reln: graduate adviser
-- 
+-
   name: Oleg Zahkarov
   type: MS
   field: CS
@@ -318,6 +362,21 @@ ms:
   type: MS
   field: CS
   year: 2014
+  reln: graduate adviser
+-
+  name: Arissa Wongpanich
+  type: EECS 5th year MS
+  year: 2020
+  reln: graduate adviser
+-
+  name: Rajul Jain
+  type: EECS 5th year MS
+  year: 2022
+  reln: graduate adviser
+-
+  name: Iniyaal Kannan
+  type: EECS 5th year MS
+  year: 2023
   reln: graduate adviser
 
 postdoc:
@@ -381,4 +440,24 @@ postdoc:
   name: Hong Diep Nguyen
   from: 2011
   year: 2015
+  type: postdoctoral adviser
+-
+  name: Riley Murray
+  from: 2021
+  year: 2023
+  type: postdoctoral co-adviser
+-
+  name: Hengrui Luo
+  from: 2020
+  year: 2023
+  type: postdoctoral co-adviser
+-
+  name: Younghyun Cho
+  from: 2020
+  year: 2023
+  type: postdoctoral co-adviser
+-
+  name: Ryan Schneider
+  from: 2020
+  year: 2026
   type: postdoctoral adviser

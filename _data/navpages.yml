@@ -1,4 +1,6 @@
 - name: Home
   link: index
+- name: Registration
+  link: registration
 - name: Demmel students
   link: students
