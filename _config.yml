@@ -3,7 +3,7 @@ title: "JWD70"
 email: bindel@cornell.edu
 description:
   Conference in Honor of James W. Demmel on his 70th Birthday
-baseurl: "/jwd70/"
+baseurl: "/dmml/"
 url: "https://www.dbindel.net" # the base hostname & protocol for your site
 
 encoding: utf-8
