@@ -246,8 +246,10 @@ phd:
   name: Vivek Bharadwaj
   type: PhD
   field: CS
-  year: 2025 (expected)
+  year: 2025
   reln: graduate co-adviser
+  thesis: Accelerating Multilinear Maps and Structured Sparse Tensor Kernels
+  thesis_url: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-146.pdf
 -
   name: Tianyu Liang
   type: PhD
