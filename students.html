@@ -15,7 +15,7 @@ layout: page
     <td>Relation</td>
   </thead>
   <tbody>
-    {% assign sortedphd = site.data.students.phd | sort: 'year' %}
+    {% assign sortedphd = site.data.students.phd %}
     {% for student in sortedphd %}
     <tr>
       <td>{{ student.year }}</td>
@@ -42,7 +42,7 @@ layout: page
     <td>Relation</td>
   </thead>
   <tbody>
-    {% assign sortedms = site.data.students.ms | sort: 'year' %}
+    {% assign sortedms = site.data.students.ms %}
     {% for student in sortedms %}
     <tr>
       <td>{{ student.year }}</td>
@@ -64,7 +64,7 @@ layout: page
     <td>Name</td>
   </thead>
   <tbody>
-    {% assign sortedpostdoc = site.data.students.postdoc | sort: 'year' %}
+    {% assign sortedpostdoc = site.data.students.postdoc %}
     {% for student in sortedpostdoc %}
     <tr>
       <td>{% if student.from %}{{ student.from }}-{% endif %}{{ student.year }}</td>
