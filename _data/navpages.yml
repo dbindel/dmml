@@ -1,9 +1,7 @@
 - name: Home
   link: index
-- name: Registration
-  link: registration
-- name: Travel
-  link: travel
+- name: Photos
+  link: gallery
 - name: Demmel students
   link: students
 - name: Program
